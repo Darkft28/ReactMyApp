@@ -1,0 +1,46 @@
+.not-found {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 2rem;
+  text-align: center;
+  gap: 1rem;
+}
+
+.not-found__code {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 7rem;
+  font-weight: 300;
+  color: var(--border);
+  line-height: 1;
+}
+
+.not-found__title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--cream);
+}
+
+.not-found__sub {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.not-found__link {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--gold);
+  text-decoration: none;
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+  padding: 0.45rem 1.2rem;
+  transition: background 0.2s;
+}
+
+.not-found__link:hover {
+  background: var(--gold-dim);
+}
